@@ -1,19 +1,16 @@
 
-var min = 0;
-var hour = 0;
-var sec = 0;
-var miliSec = 0;
-var timer;
+let min = 0;
+let hour = 0;
+let sec = 0;
+let timer;
 let laptime = document.getElementById("Lap-timings");
-let counter = 0;
-let x = [];
+
 let pastLapTime = {
     hours:0,
     minutes:0,
     seconds:0
     }
-function callTimer() {
-            
+function callTimer() {      
     sec++;
     if (sec === 60)  {
         sec = 0;
