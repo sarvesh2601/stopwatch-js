@@ -35,7 +35,7 @@ function Stop() {
 }
 
 function Reset() {
-    stop();
+    Stop();
     hour = 0;
     min = 0;
     sec = 0;
